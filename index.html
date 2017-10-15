@@ -4,23 +4,25 @@
     <meta charset="utf-8" />
     <title>Practica 1</title>
     <meta name="author" content="Marc Castells, Cristian González y Pau Nonell">
-    <meta name="description" content="Video App para buscar tu vídeo favorito o ver las listas de Top videos y Top populares">
+    <meta name="description" content="Video App para buscar tu vídeo favorito o ver las listas de Top videos y Top populares.">
     <meta name="keywords" content="video,videos">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
-    <h1>Video App</h1>
-    <form action="#" method="POST">
-      <input type="text" name="busqueda" id="busqueda" placeholder="Busca tu video favorito">
-      <button type="submit">Buscar</button>
-    </form>
-    <nav>
-      <ul>
-        <li><a href="#resultados">Videos</a></li>
-        <li><a href="#vistos">Top videos</a></li>
-        <li><a href="#populares">Top populares</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Video App</h1>
+      <form action="#" method="POST">
+        <input type="text" name="busqueda" id="busqueda" placeholder="Busca tu video favorito">
+        <button type="submit">Buscar</button>
+      </form>
+      <nav>
+        <ul>
+          <li><a href="#resultados" title="Ver los resultados">Videos</a></li>
+          <li><a href="#vistos" title="Ver los videos más vistos en Youtube">Top videos</a></li>
+          <li><a href="#populares" title="Ver los videos más búscados en Youtube">Top populares</a></li>
+        </ul>
+      </nav>
+    </header>
     <section id="resultados">
       <h2>Resultados de la búsqueda</h2>
       <ul class="videos">
