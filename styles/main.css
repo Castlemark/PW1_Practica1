@@ -37,3 +37,16 @@ a:hover{
   color: #7870cc;
   text-decoration: underline;
 }
+.videos {
+  list-style-position: inside;
+}
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+section li {
+  float: left;
+}
