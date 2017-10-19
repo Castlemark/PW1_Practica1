@@ -5,7 +5,15 @@
 body{
   background-color: #04b486;
 }
-
+header{
+  text-align: center;
+}
+nav ul{
+  display: inline-flex;
+}
+nav ul li{
+  padding-left: 10px;
+}
 section{
   background-color: #a9f5d0;
 }
@@ -33,7 +41,7 @@ a{
   color: black;
   text-decoration: none;
 }
-a:hover{
+nav a:hover{
   color: #7870cc;
   text-decoration: underline;
 }
@@ -46,6 +54,9 @@ a:hover{
   display: block;
   height: 0;
   clear: both;
+}
+.home{
+  float:
 }
 section li {
   float: left;
