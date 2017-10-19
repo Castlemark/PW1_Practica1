@@ -1,3 +1,24 @@
 .videos {
   list-style-position: inside;
 }
+
+body{
+  background-color: #04b486;
+}
+
+section{
+  background-color: #a9f5d0;
+}
+
+button{
+  border: 1px solid #7870cc;
+  background-color: #7870cc;
+  border-radius: 5px;
+  padding: 5px 40px;
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
