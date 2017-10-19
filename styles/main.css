@@ -54,6 +54,8 @@ nav a:hover{
   color: #7870cc;
   text-decoration: underline;
 }
+
+
 .videos {
   list-style-position: inside;
 }
@@ -64,11 +66,33 @@ nav a:hover{
   height: 0;
   clear: both;
 }
-.home{
-  float:
-}
 section li {
   float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+figcaption {
+  background-color: #2e2e2e;
+  color: white;
+  opacity: .6;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+figure {
+  overflow: hidden;
+}
+figure, figure img {
+  width: 300px;
+}
+figure:hover figcaption {
+   display:none;
+}
+figure img:hover {
+  width: 120%;
 }
 
 #busqueda{
