@@ -10,6 +10,7 @@ header{
 }
 nav ul{
   display: inline-flex;
+  padding-top: 15px;
 }
 nav ul li{
   padding-left: 10px;
