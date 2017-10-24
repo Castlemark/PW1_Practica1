@@ -27,6 +27,7 @@ button{
   background-color: #7870cc;
   border: 1px solid #7870cc;
   border-radius: 5px;
+  color: white;
   padding: 5px 40px;
 }
 
@@ -90,11 +91,17 @@ figure {
 figure, figure img {
   width: 300px;
 }
-figure:hover figcaption {
-   display:none;
+figure:hover img {
+  transform: scale(2);
 }
-figure:hover {
-  width: 120%;
+figure:hover figcaption {
+   transform: scaleY(0);
+}
+figure img {
+  transition: transform 0.5s;
+}
+figure figcaption {
+  transition: transform 0.5s;
 }
 
 #busqueda{
