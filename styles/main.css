@@ -17,6 +17,7 @@ nav ul li{
 }
 section{
   background-color: #a9f5d0;
+  display: grid;
   padding: 15px;
   margin: 20px auto;
   width: 90%;
@@ -92,7 +93,7 @@ figure, figure img {
 figure:hover figcaption {
    display:none;
 }
-figure img:hover {
+figure:hover {
   width: 120%;
 }
 
@@ -107,4 +108,10 @@ figure img:hover {
 
 #buscador{
   margin-top: 10px;
+}
+
+.home{
+  text-align: right;
+  margin-right: 60px;
+  margin-bottom: 15px;
 }
