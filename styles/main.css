@@ -46,8 +46,15 @@ h2{
 footer, h1, h2{
   font-family: "Arial", sans-serif;
 }
-footer{
+footer {
   background-color: #7870cc;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer p {
+  color: black;
+  font-size: 14px;
 }
 a{
   color: black;
@@ -78,12 +85,15 @@ section li {
 }
 figcaption {
   background-color: #2e2e2e;
-  color: white;
   opacity: .6;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+figcaption h3 {
+  color: white;
+  font-size: 11px;
 }
 figure {
   overflow: hidden;
