@@ -1,7 +1,7 @@
 @media screen and (min-device-width: 0px) and (max-device-width: 375px) {
   /* iPhone 6 375x667 */
   body {
-    background-color: yellow !important;
+    color: yellow !important;
   }
 }
 @media (min-device-width: 376px) and (max-device-width: 412px) {
@@ -9,10 +9,55 @@
   body {
     color: purple !important;
   }
+  h1{
+    font-size: 90px;
+    padding: 10px 0;
+  }
+  h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .home{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #buscador{
+    margin-top: 25px;
+  }
+
+  #busqueda{
+    font-size: 20px;
+    height: 41px;
+    width: 400px;
+  }
+
+  button{
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+
+  nav ul li {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+
+  figcaption h3 {
+    font-size: 25px;
+  }
+
+  footer p{
+    font-size: 18px;
+    padding: 20px 20px;
+  }
+
 }
 @media (min-device-width: 413px) and (max-device-width: 1600px) {
   /* Reponsive 1600x */
   body {
     color: green !important;
   }
+
+
 }
