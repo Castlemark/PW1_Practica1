@@ -1,0 +1,134 @@
+@media (min-device-width: 0px) and (max-device-width: 375px) {
+  /* iPhone 6 375x667 */
+  body {
+    color: yellow !important;
+    text-align: center;
+  }
+  h1 {
+    font-size: 90px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  figure, figure img {
+    width: 400px
+  }
+  .home {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #buscador {
+    margin-top: 10px;
+  }
+  #busqueda {
+    font-size: 20px;
+    height: 41px;
+    width: 400px;
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+  nav ul li {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+  figcaption h3 {
+    font-size: 30px;
+  }
+  footer p{
+    font-size: 14px;
+    padding: 20px 20px;
+  }
+}
+@media (min-device-width: 376px) and (max-device-width: 412px) {
+  /* Nexus5X 412x732 */
+  body {
+    color: purple !important;
+  }
+  h1 {
+    font-size: 90px;
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .home {
+    font-size: 40px;
+    text-align: center;
+  }
+  #buscador {
+    margin-top: 25px;
+  }
+  #busqueda {
+    font-size: 20px;
+    height: 41px;
+    width: 400px;
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+  nav ul li {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+  figcaption h3 {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 18px;
+    padding: 20px 20px;
+  }
+}
+@media (min-device-width: 413px) and (max-device-width: 1600px) {
+  /* Reponsive 1600x */
+  body {
+    color: green !important;
+  }
+  h1 {
+    font-size: 50px;
+    padding: 4px 0;
+  }
+  h2 {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .home {
+    font-size: inherit;
+  }
+  #buscador {
+    margin-top: 10px;
+  }
+  #busqueda {
+    font-size: inherit;
+    width: 250px;
+    height: 24px;
+  }
+  button {
+    font-size: inherit;
+    padding: 5px 40px;
+  }
+  nav ul li {
+    font-size: inherit;
+    padding-left: 8px;
+  }
+  figcaption h3 {
+    color: white;
+    font-size: 12px;
+  }
+  footer p {
+    color: black;
+    font-size: 15px;
+  }
+  footer {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
