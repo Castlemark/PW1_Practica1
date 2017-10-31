@@ -2,7 +2,56 @@
   /* iPhone 6 375x667 */
   body {
     color: yellow !important;
+    text-align: center;
   }
+
+  h1{
+    font-size: 90px;
+    padding: 10px 0;
+  }
+  h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  figure, figure img{
+    width: 400px
+  }
+
+  .home{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #buscador{
+    margin-top: 10px;
+  }
+
+  #busqueda{
+    font-size: 20px;
+    height: 41px;
+    width: 400px;
+  }
+
+  button{
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+
+  nav ul li {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+
+  figcaption h3 {
+    font-size: 30px;
+  }
+
+  footer p{
+    font-size: 14px;
+    padding: 20px 20px;
+  }
+
 }
 @media (min-device-width: 376px) and (max-device-width: 412px) {
   /* Nexus5X 412x732 */
